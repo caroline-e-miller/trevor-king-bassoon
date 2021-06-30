@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Jumbotron } from 'react-bootstrap';
+import { Container, Jumbotron, Image } from 'react-bootstrap';
 
 function Home() {
     return (
@@ -10,7 +10,9 @@ function Home() {
                     A bassoonist who is passionate about chamber music, new music, and pedagogy.
     </p>
             </Container>
+            <Image src="https://nafme.org/wp-content/uploads/2017/10/iStock-508853205.jpg" fluid />
         </Jumbotron>
+
     )
 }
 
