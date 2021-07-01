@@ -12,6 +12,7 @@ function App() {
       <div>
         <Navbar />
         <Route exact path="/trevor-king-bassoon" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/recordings" component={Recordings} />
         <Route path="/contact" component={Contact} />
