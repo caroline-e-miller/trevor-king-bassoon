@@ -1,10 +1,17 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import { Nav } from "react-bootstrap";
+import "./Navbar.css";
 
 function Navbar() {
     const location = useLocation();
 
     return (
+        // <Navbar collapseOnSelect expand="sm" variant="light" bg="light">
+        //     <Navbar.Brand href="/">T/K</Navbar.Brand>
+        //     <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        //     <Navbar.Collapse id="basic-navbar-nav">
+        //         <Nav className="mr-auto">
         <ul className="nav nav-bar">
             <li className="nav-item">
                 <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
@@ -36,6 +43,9 @@ function Navbar() {
         </Link>
             </li>
         </ul>
+        //         </Nav>
+        //     </Navbar.Collapse>
+        // </Navbar >
     );
 }
 
