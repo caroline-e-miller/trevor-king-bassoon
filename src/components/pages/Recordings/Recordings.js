@@ -1,11 +1,13 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
+import "./Recordings.css"
 
 function Recordings() {
     return (
         <Carousel>
             <Carousel.Item>
                 <img
+                    id="photo1"
                     className="d-block w-100"
                     src="https://www.mccmf.org/wp-content/uploads/2015/07/William-King.jpg"
                     alt="poulenc"
