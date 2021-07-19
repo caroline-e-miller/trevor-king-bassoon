@@ -21,12 +21,12 @@ function Recordings() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="holder.js/800x400?text=Second slide&bg=282c34"
+                    src="http://4.bp.blogspot.com/-J71XnIB-tvU/Tq71__i0rqI/AAAAAAAABb0/UCxw6bZKGtA/s400/Isang+Yun.jpg"
                     alt="yoon"
                 />
 
                 <Carousel.Caption>
-                    <h3>Yoon Monolgue for Solo Bassoon</h3>
+                    <h3>Yun Monolgue for Solo Bassoon</h3>
                     <p>[link here]</p>
                 </Carousel.Caption>
             </Carousel.Item>
