@@ -7,7 +7,7 @@ function Recordings() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="holder.js/800x400?text=First slide&bg=373940"
+                    src="https://www.mccmf.org/wp-content/uploads/2015/07/William-King.jpg"
                     alt="poulenc"
                 />
                 <Carousel.Caption>
