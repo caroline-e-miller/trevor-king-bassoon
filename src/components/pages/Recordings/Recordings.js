@@ -8,35 +8,36 @@ function Recordings() {
                 <img
                     className="d-block w-100"
                     src="holder.js/800x400?text=First slide&bg=373940"
-                    alt="First slide"
+                    alt="poulenc"
                 />
                 <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>Poulenc Trio for Bassoon, Oboe, and Piano</h3>
+                    <p>Performed with Nancy Amrobse King (oboe) and Monika Ellis (piano).</p>
+                    <p>[link here]</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
                     src="holder.js/800x400?text=Second slide&bg=282c34"
-                    alt="Second slide"
+                    alt="yoon"
                 />
 
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>Yoon Monolgue for Solo Bassoon</h3>
+                    <p>[link here]</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
                     src="holder.js/800x400?text=Third slide&bg=20232a"
-                    alt="Third slide"
+                    alt="Reich New York Counterpoint"
                 />
 
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h3>Reich New York Couterpoint for Bassoon</h3>
+                    <p>[link here]</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
