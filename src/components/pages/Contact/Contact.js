@@ -1,5 +1,6 @@
 import React from "react";
 import { Form, Button, Container } from "react-bootstrap";
+import "./Contact.css";
 
 function Contact() {
     return (

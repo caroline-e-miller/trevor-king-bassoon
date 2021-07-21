@@ -33,7 +33,7 @@ function Recordings() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="holder.js/800x400?text=Third slide&bg=20232a"
+                    src="https://cantaloupemusic.com/sites/default/files/styles/artist_slides/public/artistimages/steve_reich_photo_credit_jeffrey_herman.jpg?itok=xQD4gPfU.jpg"
                     alt="Reich New York Counterpoint"
                 />
 
