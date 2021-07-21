@@ -1,5 +1,6 @@
-#photo1 {
-    width: 500px;
+.carousel-item {
+    width: 1000px;
     height: auto;
+    align-self: center;
 }
 
