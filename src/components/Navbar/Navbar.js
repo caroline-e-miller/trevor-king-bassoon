@@ -7,17 +7,7 @@ function Navigator() {
     const location = useLocation();
 
     return (
-        // <Navbar bg="primary" variant="dark">
-        //     <Container>
-        //         <Navbar.Brand href="#home">Trevor King</Navbar.Brand>
-        //         <Nav className="me-auto">
-        //             <Nav.Link href="#home">Home</Nav.Link>
-        //             <Nav.Link href="#features">Contact</Nav.Link>
-        //             <Nav.Link href="#pricing">About</Nav.Link>
-        //             <Nav.Link href="#pricing">Recordings</Nav.Link>
-        //         </Nav>
-        //     </Container>
-        // </Navbar>
+
         <Navbar collapseOnSelect expand="sm" variant="light" bg="light">
             <Navbar.Brand href="/">T/K</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
