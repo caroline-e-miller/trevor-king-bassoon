@@ -4,7 +4,7 @@ import "./Contact.css";
 
 function Contact() {
     return (
-        <Container>
+        <Container id="contact-container">
             <p>For questions, comments, gigs, and lesson inquiries, please feel free to reach out!</p>
             <Form>
                 <Form.Group controlId="formBasicEmail">
