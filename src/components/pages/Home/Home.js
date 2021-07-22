@@ -7,9 +7,9 @@ function Home() {
         <Jumbotron fluid>
             <Container>
                 <h1>Trevor King</h1>
-                <p>
+                <h5>
                     A bassoonist who is passionate about chamber music, new music, and pedagogy.
-    </p>
+    </h5>
                 <Image style={{ alignSelf: 'center' }} src="https://nafme.org/wp-content/uploads/2017/10/iStock-508853205.jpg" fluid />
             </Container>
         </Jumbotron>
