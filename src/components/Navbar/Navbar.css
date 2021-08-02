@@ -2,9 +2,10 @@ nav.navbar.navbar-default {
     margin-bottom: 0;
 }
 
-/* .navbar {
-  margin-bottom: 20px
-} */
+li, a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
 
 .navbar-brand {
 padding: 20px;
