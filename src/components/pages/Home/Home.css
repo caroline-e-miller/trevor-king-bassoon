@@ -1,3 +1,12 @@
+body {
+    background-image: url("https://a1industrialtrucks.co.uk/wp-content/uploads/2018/11/webplunder-background-image-technology-online-website-solutions-1024x560.jpg");
+    background-color: #cccccc;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: bolder
