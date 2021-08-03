@@ -1,5 +1,5 @@
 import React from "react";
-import { Form, Button, Container } from "react-bootstrap";
+import { Form, Button, Container, Card } from "react-bootstrap";
 import "./Contact.css";
 
 function Contact() {
@@ -20,6 +20,10 @@ function Contact() {
                     Submit
   </Button>
             </Form>
+
+            <Card>
+                <Card.Img src="https://imgur.com/FxSRCXZ.jpeg"></Card.Img>
+            </Card>
         </Container>
     )
 }
