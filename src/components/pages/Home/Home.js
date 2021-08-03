@@ -1,18 +1,29 @@
 import React from "react";
-import { Container, Jumbotron, Image } from 'react-bootstrap';
+import { Container, Jumbotron, Image, Card } from 'react-bootstrap';
 import "./Home.css";
 
 function Home() {
     return (
-        <Jumbotron fluid>
-            <Container>
+        //         <Card>
+        //     <Card.Body>
+        //       <Card.Text>
+        //         Some quick example text to build on the card title and make up the bulk
+        //         of the card's content.
+        //       </Card.Text>
+        //     </Card.Body>
+        //     <Card.Img variant="bottom" src="holder.js/100px180" />
+        //   </Card>
+        <Container>
+            <Card>
+
                 <h1>Trevor King</h1>
-                <h5>
+                <Card.Text>
                     A bassoonist who is passionate about chamber music, new music, and pedagogy.
-    </h5>
-                <Image style={{ alignSelf: 'center' }} src="https://nafme.org/wp-content/uploads/2017/10/iStock-508853205.jpg" fluid />
-            </Container>
-        </Jumbotron>
+    </Card.Text>
+                <Card.Img variant="bottom" style={{ alignSelf: 'center' }} src="https://nafme.org/wp-content/uploads/2017/10/iStock-508853205.jpg" />
+
+            </Card>
+        </Container>
 
     )
 }

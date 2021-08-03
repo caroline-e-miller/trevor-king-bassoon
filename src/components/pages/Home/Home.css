@@ -7,6 +7,20 @@ body {
     background-size: cover;
 }
 
+.card {
+    margin-top: 25px;
+}
+
+h1, .card-text {
+    margin: 20px;
+}
+
+.card-img-bottom {
+    height: 50%;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
 h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: bolder
