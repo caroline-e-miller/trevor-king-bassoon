@@ -15,7 +15,7 @@ function Recordings() {
                 <Carousel.Caption>
                     <h3 id="recording-text">Poulenc Trio for Bassoon, Oboe, and Piano</h3>
                     <p id="recording-text">Performed with Nancy Amrobse King (oboe) and Monika Ellis (piano).</p>
-                    <p id="recording-text">[link here]</p>
+                    <a href="https://youtu.be/q3DLKRg4M68">Link to performance here (begins at 7:45)</a>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
