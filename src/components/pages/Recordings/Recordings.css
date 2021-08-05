@@ -1,17 +1,4 @@
-/* .carousel-item {
-    width: 750px;
-    height: auto; 
-    margin: auto;
-} */
-
-/* .carousel-item {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  } */
-
-  .carousel-item {
+ .carousel-item {
       width: 60%;
       margin: auto;
       float: none
