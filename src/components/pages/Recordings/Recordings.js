@@ -14,8 +14,8 @@ function Recordings() {
                 />
                 <Carousel.Caption>
                     <h3 id="recording-text">Poulenc Trio for Bassoon, Oboe, and Piano</h3>
-                    <p id="recording-text">Performed with Nancy Amrobse King (oboe) and Monika Ellis (piano).</p>
-                    <a href="https://youtu.be/q3DLKRg4M68">Link to performance here (begins at 7:45)</a>
+                    <p id="recording-text">Performed with Nancy Amrobse King (oboe) and Liz Ames (piano).</p>
+                    <a id="recording-link" href="https://youtu.be/q3DLKRg4M68">Link to performance here (begins at 19:18)</a>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -27,7 +27,7 @@ function Recordings() {
 
                 <Carousel.Caption>
                     <h3 id="recording-text">Yun Monolgue for Solo Bassoon</h3>
-                    <p id="recording-text">[link here]</p>
+                    <a id="recording-link" href="https://youtu.be/q3DLKRg4M68">Link to performance here (begins at 7:45)</a>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -39,7 +39,7 @@ function Recordings() {
 
                 <Carousel.Caption>
                     <h3 id="recording-text">Reich New York Couterpoint for Bassoon</h3>
-                    <p id="recording-text">[link here]</p>
+                    <a id="recording-link" href="https://youtu.be/q3DLKRg4M68">Link to performance here (begins at 34:35)</a>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
