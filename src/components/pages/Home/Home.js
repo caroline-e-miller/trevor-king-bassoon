@@ -1,4 +1,5 @@
 import React from "react";
+import FadeIn from 'react-fade-in';
 import { Container, Jumbotron, Image, Card } from 'react-bootstrap';
 import "./Home.css";
 
@@ -14,15 +15,17 @@ function Home() {
         //     <Card.Img variant="bottom" src="holder.js/100px180" />
         //   </Card>
         <Container>
-            <Card>
+            <FadeIn>
+                <Card id="fade-in">
 
-                <h1>Trevor King</h1>
-                <Card.Text>
-                    A bassoonist who is passionate about chamber music, new music, and pedagogy.
+                    <h1>Trevor King</h1>
+                    <Card.Text>
+                        A bassoonist who is passionate about chamber music, new music, and pedagogy.
     </Card.Text>
-                <Card.Img variant="bottom" style={{ alignSelf: 'center' }} src="https://nafme.org/wp-content/uploads/2017/10/iStock-508853205.jpg" />
+                    <Card.Img variant="bottom" style={{ alignSelf: 'center' }} src="https://nafme.org/wp-content/uploads/2017/10/iStock-508853205.jpg" />
 
-            </Card>
+                </Card>
+            </FadeIn>
         </Container>
 
     )
